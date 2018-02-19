@@ -10,3 +10,12 @@ Censors text based on dictionaries of naughty words.
 
 - https://www.freewebheaders.com/full-list-of-bad-words-banned-by-google/
 - Our own custom words
+
+## API
+
+```js
+const noNaughtyWords = require('no-naughty-words')
+
+const text = noNaughtyWords.filter('some shit')
+// 'some ****'
+```
