@@ -1,11 +1,11 @@
 
-const escapeStringRegexp = require('escape-string-regexp');
+const escapeStringRegexp = require('escape-string-regexp')
 const path = require('path')
 const fs = require('fs')
 
 const words = fs.readFileSync(path.resolve(__dirname, 'data/words.txt'), 'utf8').split('\n').filter(Boolean)
 
-function* stars (length) {
+function * stars (length) {
   let i = 0
   while (i++ < length) {
     yield '*'
