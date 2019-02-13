@@ -14,7 +14,7 @@
   "license": "MIT",
   "repository": "jonathanong/no-naughty-words",
   "devDependencies": {
-    "codecov": "^3.0.0",
+    "codecov": "^3.2.0",
     "eslint": "^4.16.0",
     "eslint-config-standard": "^11.0.0",
     "eslint-plugin-import": "^2.8.0",
