@@ -15,7 +15,7 @@
   "repository": "jonathanong/no-naughty-words",
   "devDependencies": {
     "codecov": "^3.0.0",
-    "eslint": "^4.16.0",
+    "eslint": "^6.1.0",
     "eslint-config-standard": "^11.0.0",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-node": "^6.0.0",
